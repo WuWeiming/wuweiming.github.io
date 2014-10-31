@@ -76,19 +76,19 @@ image: post_one.jpg
 
 		<table>
 			<tr>
-				<th>Field name</th>
-				<th>Data type</th>     
-				<th>Size on disk</th>
+				<th class="col-md-2">Field name</th>
+				<th class="col-md-2">Data type</th>     
+				<th class="col-md-2">Size on disk</th>
 			</tr>
 			<tr>
-				<td>firstName</td>
-				<td>Char(50)</td>
-				<td>50 bytes</td>
+				<td class="col-md-2">firstName</td>
+				<td class="col-md-2">Char(50)</td>
+				<td class="col-md-2">50 bytes</td>
 			</tr>
 			<tr>
-				<td>(record pointer)</td>
-				<td>Special</td>
-				<td>4 bytes</td>
+				<td class="col-md-2">(record pointer)</td>
+				<td class="col-md-2">Special</td>
+				<td class="col-md-2">4 bytes</td>
 			</tr>
 	    </table>
 	    <p class="muted"><strong>*</strong> Note: Pointers in MySQL are 2, 3, 4 or 5 bytes in length depending on the size of the table.</p>
