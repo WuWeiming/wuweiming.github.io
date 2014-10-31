@@ -18,11 +18,11 @@ image: post_one.jpg
 <div class="row">	
 	<div class="span9 columns">
 		<h4><strong>Why is it needed?</strong></h4>
-		<p>When data is stored on disk based storage devices, it is stored as blocks of data. These blocks are accessed in their entirety, making them the atomic disk access operation. Disk blocks are structured in much the same way as linked lists; both contain a section for data, a pointer to the location of the next node (or block), and both need not be stored contiguously.</p>
+		<p class="text-justify">When data is stored on disk based storage devices, it is stored as blocks of data. These blocks are accessed in their entirety, making them the atomic disk access operation. Disk blocks are structured in much the same way as linked lists; both contain a section for data, a pointer to the location of the next node (or block), and both need not be stored contiguously.</p>
 
-		<p>Due to the fact that a number of records can only be sorted on one field, we can state that searching on a field that isn’t sorted requires a Linear Search which requires N/2 block accesses (on average), where N is the number of blocks that the table spans. If that field is a non-key field (i.e. doesn’t contain unique entries) then the entire table space must be searched at N block accesses.</p>
+		<p class="text-justify">Due to the fact that a number of records can only be sorted on one field, we can state that searching on a field that isn’t sorted requires a Linear Search which requires N/2 block accesses (on average), where N is the number of blocks that the table spans. If that field is a non-key field (i.e. doesn’t contain unique entries) then the entire table space must be searched at N block accesses.</p>
 
-		<p>Whereas with a sorted field, a Binary Search may be used, this has log2 N block accesses. Also since the data is sorted given a non-key field, the rest of the table doesn’t need to be searched for duplicate values, once a higher value is found. Thus the performance increase is substantial.</p>
+		<p class="text-justify">Whereas with a sorted field, a Binary Search may be used, this has log2 N block accesses. Also since the data is sorted given a non-key field, the rest of the table doesn’t need to be searched for duplicate values, once a higher value is found. Thus the performance increase is substantial.</p>
 
 		<h4><strong>What is indexing?</strong></h4>
 
@@ -74,7 +74,7 @@ image: post_one.jpg
 
 		<p>Given that an index record contains only the indexed field and a pointer to the original record, it stands to reason that it will be smaller than the multi-field record that it points to. So the index itself requires fewer disk blocks that the original table, which therefore requires fewer block accesses to iterate through. The schema for an index on the firstName field is outlined below;</p>
 
-		<table>
+		<table class = "table">
 			<tr>
 				<th style="width: 120px">Field name</th>
 				<th style="width: 120px">Data type</th>     
