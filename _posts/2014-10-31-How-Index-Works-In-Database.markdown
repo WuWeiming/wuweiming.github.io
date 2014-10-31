@@ -26,7 +26,7 @@ image: post_one.jpg
 
 		<p>The downside to indexing is that these indexes require additional space on the disk, since the indexes are stored together in a table using the MyISAM engine, this file can quickly reach the size limits of the underlying file system if many fields within the same table are indexed.</p>
 
-		<h4><strong>How does it work?<strong></h4>
+		<h4><strong>How does it work?</strong></h4>
 
 		<p>Firstly, let’s outline a sample database table schema;</p>
 
