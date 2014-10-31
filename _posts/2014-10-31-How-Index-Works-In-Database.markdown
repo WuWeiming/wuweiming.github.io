@@ -76,8 +76,8 @@ image: post_one.jpg
 
 		<table>
 			<tr>
-				<th class="col-md-2">Field name</th>
-				<th class="col-md-2">Data type</th>     
+				<th><div class="col-md-2">Field name</div></th>
+				<th><div class="col-md-2">Data type</div></th>     
 				<th class="col-md-2">Size on disk</th>
 			</tr>
 			<tr>
