@@ -34,31 +34,31 @@ image: post_one.jpg
 
 		<p>Firstly, let’s outline a sample database table schema;</p>
 
-		<table>
+		<table class="table">
 			<tr>
-				<th>Field name</th>
-				<th>Data type</th>     
-				<th>Size on disk</th>
+				<th style="width: 120px">Field name</th>
+				<th style="width: 120px">Data type</th>     
+				<th style="width: 120px">Size on disk</th>
 			</tr>
 			<tr>
-				<td>id (Primary key)</td> 
-				<td>Unsigned INT</td>   
-				<td>4 bytes</td>
+				<td style="width: 120px">id (Primary key)</td> 
+				<td style="width: 120px">Unsigned INT</td>   
+				<td style="width: 120px">4 bytes</td>
 			</tr>
 			<tr>
-				<td>firstName</td>
-				<td>Char(50)</td>
-				<td>50 bytes</td>
+				<td style="width: 120px">firstName</td>
+				<td style="width: 120px">Char(50)</td>
+				<td style="width: 120px">50 bytes</td>
 			</tr>
 			<tr>
-				<td>lastName</td>
-				<td>Char(50)</td>
-				<td>50 bytes</td>
+				<td style="width: 120px">lastName</td>
+				<td style="width: 120px">Char(50)</td>
+				<td style="width: 120px">50 bytes</td>
 			</tr>
 			<tr>
-				<td>emailAddress</td>
-				<td>Char(100)</td>
-				<td>1000 bytes</td>
+				<td style="width: 120px">emailAddress</td>
+				<td style="width: 120px">Char(100)</td>
+				<td style="width: 120px">1000 bytes</td>
 			</tr>
 	    </table>
 
@@ -76,19 +76,19 @@ image: post_one.jpg
 
 		<table>
 			<tr>
-				<th><div class="col-md-4">Field name</div></th>
-				<th><div class="col-md-4">Data type</div></th>     
-				<th class="col-md-2">Size on disk</th>
+				<th style="width: 120px">Field name</th>
+				<th style="width: 120px">Data type</th>     
+				<th style="width: 120px">Size on disk</th>
 			</tr>
 			<tr>
-				<td class="col-md-2">firstName</td>
-				<td class="col-md-2">Char(50)</td>
-				<td class="col-md-2">50 bytes</td>
+				<td style="width: 120px">firstName</td>
+				<td style="width: 120px">Char(50)</td>
+				<td style="width: 120px">50 bytes</td>
 			</tr>
 			<tr>
-				<td class="col-md-2">(record pointer)</td>
-				<td class="col-md-2">Special</td>
-				<td class="col-md-2">4 bytes</td>
+				<td style="width: 120px">(record pointer)</td>
+				<td style="width: 120px">Special</td>
+				<td style="width: 120px">4 bytes</td>
 			</tr>
 	    </table>
 	    <p class="muted"><strong>*</strong> Note: Pointers in MySQL are 2, 3, 4 or 5 bytes in length depending on the size of the table.</p>
