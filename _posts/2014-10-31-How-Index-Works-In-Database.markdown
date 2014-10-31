@@ -10,7 +10,11 @@ published: true
 summary: An introduction to how index works in database
 image: post_one.jpg
 ---
-
+<p>
+	<small>This passage is copied from
+		<a href = "http://stackoverflow.com/questions/1108/how-does-database-indexing-work/1130#1130"> here </a>
+	</small>
+</p>
 <div class="row">	
 	<div class="span9 columns">
 		<h4><strong>Why is it needed?</strong></h4>
