@@ -88,6 +88,7 @@ image: post_one.jpg
 			</tr>
 	    </table>
 	    <p class="muted"><strong>*</strong> Note: Pointers in MySQL are 2, 3, 4 or 5 bytes in length depending on the size of the table.</p>
+	    <hr>
 
 		<h3>Example 2</h3>
 
